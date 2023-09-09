@@ -92,7 +92,11 @@ Halte Dich mit unserem [Newsletter](https://n3rds.work/webmasterservice-n3rdswor
 
 == ChangeLog ==
 
-= 2.8.9 = DerN3rd =
+= 2.9.0 = 
+
+*Fix: Unknown named parameter
+
+= 2.8.9 =
 
 * Public release
 
