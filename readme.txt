@@ -97,6 +97,7 @@ Halte Dich mit unserem [Newsletter](https://n3rds.work/webmasterservice-n3rdswor
 *Fix: Unknown named parameter
 *Added: .pot file
 *Added: english.pot
+*Upgrade: Psource Updater v1.1
 
 = 2.8.9 =
 
