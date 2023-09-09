@@ -5,7 +5,7 @@ Plugin URI: https://n3rds.work/piestingtal_source/neue-blog-vorlagen/
 Description: Ermöglicht dem Webseiten-Administrator das Erstellen neuer Blogs basierend auf Vorlagen, um den Blog-Erstellungsprozess zu beschleunigen
 Author: WMS N@W
 Author URI: https://n3rds.work
-Version: 2.8.9
+Version: 2.9.0
 Network: true
 Text Domain: blog_templates
 Domain Path: languages
@@ -35,7 +35,7 @@ $MyUpdateChecker = PucFactory::buildUpdateChecker(
 	'blogvorlagen' 
 );
 
-define( 'NBT_PLUGIN_VERSION', '2.8.9' );
+define( 'NBT_PLUGIN_VERSION', '2.9.0' );
 if ( ! is_multisite() )
 	exit( __( 'Das Plugin für neue Blog-Vorlagen ist nur mit WordPress Multisite kompatibel.', 'blog_templates' ) );
 
