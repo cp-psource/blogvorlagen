@@ -8,10 +8,10 @@ Author URI: https://n3rds.work
 Version: 2.8.9
 Network: true
 Text Domain: blog_templates
-Domain Path: lang
+Domain Path: languages
 */
 
-/*  Copyright 2016-2021 WMS N@W (https://n3rds.work)
+/*  Copyright 2016-2023 WMS N@W (https://n3rds.work)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

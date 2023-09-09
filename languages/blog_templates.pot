@@ -1,0 +1,650 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Neue Blog-Vorlagen\n"
+"POT-Creation-Date: 2023-09-09 17:26+0200\n"
+"PO-Revision-Date: 2023-09-09 17:26+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: blogtemplates.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: blogtemplates.php:39
+msgid ""
+"Das Plugin für neue Blog-Vorlagen ist nur mit WordPress Multisite kompatibel."
+msgstr ""
+
+#: blogtemplates.php:244 blogtemplates.php:277
+msgid "Demo anzeigen"
+msgstr ""
+
+#: blogtemplatesfiles/admin/categories_menu.php:35
+#: blogtemplatesfiles/admin/main_menu.php:336
+msgid "Vorlagenkategorien"
+msgstr ""
+
+#: blogtemplatesfiles/admin/categories_menu.php:48
+msgid "Änderungen wurden übernommen"
+msgstr ""
+
+#: blogtemplatesfiles/admin/categories_menu.php:63
+msgid "Die Kategorie existiert nicht"
+msgstr ""
+
+#: blogtemplatesfiles/admin/categories_menu.php:73
+#: blogtemplatesfiles/admin/categories_menu.php:112
+msgid "Kategoriename"
+msgstr ""
+
+#: blogtemplatesfiles/admin/categories_menu.php:81
+#: blogtemplatesfiles/admin/categories_menu.php:117
+msgid "Kategoriebeschreibung"
+msgstr ""
+
+#: blogtemplatesfiles/admin/categories_menu.php:108
+#: blogtemplatesfiles/admin/categories_menu.php:121
+msgid "Neue Kategorie hinzufügen"
+msgstr ""
+
+#: blogtemplatesfiles/admin/categories_menu.php:136
+#: blogtemplatesfiles/admin/categories_menu.php:156
+msgid "Sicherheitsüberprüfungsfehler"
+msgstr ""
+
+#: blogtemplatesfiles/admin/categories_menu.php:150
+#: blogtemplatesfiles/admin/categories_menu.php:170
+msgid "Der Name darf nicht leer sein"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:61
+#: blogtemplatesfiles/admin/main_menu.php:129
+msgid "Blog-Vorlagen"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:70
+msgid "Vorlagen"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:78
+msgid "Alle Kategorien"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:97
+msgid "Alle Seiten"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:136
+msgid "Neue Blog-Vorlage erstellen"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:137
+msgid ""
+"Erstelle eine Blog-Vorlage basierend auf dem Blog Deiner Wahl! Auf diese "
+"Weise kannst Du (und andere Administratoren) alle Einstellungen des "
+"ausgewählten Blogs kopieren und andere Blogs erstellen, die fast exakte "
+"Kopien dieses Blogs sind. (Der Name, die URL usw. des Blogs ändern sich, "
+"sodass es sich nicht um eine 100%ige Kopie handelt.)"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:138
+msgid ""
+"Fülle einfach das folgende Formular aus und klicke auf \"Blog-Vorlage "
+"erstellen!\" um die Vorlage für die spätere Verwendung zu generieren!"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:142
+#: blogtemplatesfiles/admin/main_menu.php:186
+msgid "Vorlagenname:"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:145
+msgid "Blog ID"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:147
+msgid "Oder suche nach Blog-Pfad"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:149
+msgid ""
+"Wenn der gesuchte Blog beispielsweise eine URL wie http://ablog.mydomain.com "
+"hat, kannst Du \"ablog\" eingeben."
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:152
+msgid "Blog ID:"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:156
+msgid "Vorlagenbeschreibung:"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:160
+msgid ""
+"Nachdem Du diese Vorlage hinzugefügt hast, werden auf dem "
+"Bearbeitungsbildschirm eine Reihe von Optionen angezeigt."
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:162
+msgid "Mehr Optionen"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:165
+msgid ""
+"Bitte beachte, dass dadurch der von Dir ausgewählte Blog in einen "
+"Vorlagenblog umgewandelt wird. Alle Änderungen, die Du an diesem Blog "
+"vornimmst, ändern auch die Vorlage! Wir empfehlen, zu diesem Zweck spezielle "
+"\"Vorlagen-Blogs\" zu erstellen, damit Du nicht versehentlich neue "
+"Einstellungen, Inhalte oder Benutzer hinzufügst, die Du nicht in Deiner "
+"Vorlage haben möchtest."
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:166
+#, php-format
+msgid ""
+"Wenn Du also ein dediziertes Vorlagenblog für diese Vorlage erstellen "
+"möchtest, erstelle <a href=\"%1$s\">einen neuen Blog</a> und besuche diese "
+"Seite, um die Vorlage zu erstellen."
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:168
+msgid "Erstelle eine Blog-Vorlage!"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:177
+msgid "Blog-Vorlage bearbeiten"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:178
+msgid "Zurück zu Blog-Vorlagen"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:190
+msgid "Vorlagenbeschreibung"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:196
+msgid "Wordpress-Einstellungen, aktuelles Thema und aktive Plugins"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:200
+msgid "Beiträge"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:204
+msgid "Seiten"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:208
+msgid "Kategorien, Tags und Links"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:212
+msgid "Benutzer"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:216
+msgid "Menüs"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:220
+msgid "Dateien"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:238
+msgid "Was in den neuen Blog kopieren?"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:244
+msgid ""
+"Überprüfe, ob Du auch den Blog-Status kopieren möchtest (öffentlich oder "
+"nicht)."
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:245
+msgid "Status übernehmen?"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:251
+msgid ""
+"Wenn diese Option ausgewählt ist, dürfen die in der Vorlage enthaltenen "
+"Seiten und Beiträge nicht bearbeitet werden (auch nicht für den Blog-"
+"Administrator). Nur Superadministratoren können den Text kopierter Beiträge/"
+"Seiten bearbeiten."
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:252
+msgid "Beiträge/Seiten sperren"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:258
+msgid ""
+"Wenn diese Option ausgewählt ist, werden die Daten der Beiträge/Seiten auf "
+"das Datum aktualisiert, an dem der Blog erstellt wird"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:260
+msgid "Daten aktualisieren"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:274
+msgid "Neuen Screenshot hochladen"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:277
+msgid "Screenshot zurücksetzen"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:279
+#: blogtemplatesfiles/tables/templates_table.php:111
+msgid "Screenshot"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:283
+msgid "Erweiterte Optionen"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:290
+#, php-format
+msgid ""
+"Die hier aufgeführten Tabellen wurden wahrscheinlich von Plugins erstellt, "
+"die Du derzeit in diesem Blog aktiv hast oder ausgeführt hast. Wenn Du "
+"möchtest, dass die Daten aus diesen Tabellen in Deine neuen Blogs kopiert "
+"werden, setze ein Häkchen neben die Tabelle. Beachte, dass die einzigen hier "
+"angezeigten Tabellen mit %s beginnen. Dies ist das Standardtabellenpräfix "
+"für diesen bestimmten Blog. Bei Plugins, die dieser Konvention nicht folgen, "
+"werden die Tabellen hier nicht aufgelistet."
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:310
+msgid "Für diesen Blog sind keine zusätzlichen Tabellen zum anzeigen vorhanden"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:315
+msgid "Zusätzliche Tabellen"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:356
+msgid "Vorlage speichern"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:375
+#: blogtemplatesfiles/admin/main_menu.php:377
+#: blogtemplatesfiles/admin/main_menu.php:379
+#: blogtemplatesfiles/admin/settings_menu.php:46
+#: blogtemplatesfiles/admin/settings_menu.php:193
+#: blogtemplatesfiles/admin/settings_menu.php:195
+#: blogtemplatesfiles/admin/settings_menu.php:197
+msgid "Einstellungen"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:414
+#: blogtemplatesfiles/admin/main_menu.php:513
+#: blogtemplatesfiles/admin/main_menu.php:548
+#: blogtemplatesfiles/admin/main_menu.php:562
+#: blogtemplatesfiles/admin/main_menu.php:578
+#: blogtemplatesfiles/admin/settings_menu.php:232
+msgid ""
+"Hoppla! Es ist ein Problem mit den von Dir veröffentlichten Daten "
+"aufgetreten. Bitte gehe zurück und versuche es erneut. (Erstellt von Neue "
+"Blog-Vorlagen)"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:430
+msgid ""
+"Die hochgeladene Datei ist kein gültiges Bild. Bitte versuche es erneut."
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:508
+msgid "Deine Änderungen wurden erfolgreich gespeichert!"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:516
+msgid ""
+"Hoppla! Die von Dir gepostete Blog-ID ist falsch. Bitte gehe zurück und "
+"versuche es erneut. (Erstellt von Neue Blog-Vorlagen)"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:519
+msgid ""
+"Hoppla! Die von Dir gepostete Blog-ID ist falsch. Du kannst die Hauptseite "
+"nicht vorlegen. Bitte gehe zurück und versuche es erneut. (Erstellt von Neue "
+"Blog-Vorlagen)"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:521
+msgid "Eine Vorlage"
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:556
+msgid "Die Standardvorlage wurde erfolgreich deaktiviert."
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:572
+msgid "Die Standardvorlage wurde erfolgreich aktualisiert."
+msgstr ""
+
+#: blogtemplatesfiles/admin/main_menu.php:582
+msgid "Erfolg! Die Vorlage wurde erfolgreich gelöscht."
+msgstr ""
+
+#: blogtemplatesfiles/admin/settings_menu.php:66
+msgid "Optionen"
+msgstr ""
+
+#: blogtemplatesfiles/admin/settings_menu.php:68
+msgid "Vorlagenauswahl"
+msgstr ""
+
+#: blogtemplatesfiles/admin/settings_menu.php:73
+msgid ""
+"Wenn Du diese Option auswählst, können Deine neuen Benutzer bei der "
+"Anmeldung für eine Webseite zwischen Vorlagen wählen."
+msgstr ""
+
+#: blogtemplatesfiles/admin/settings_menu.php:75
+msgid "Vorlagenauswahl bei Registrierung anzeigen:"
+msgstr ""
+
+#: blogtemplatesfiles/admin/settings_menu.php:96
+msgid "Wähle eine Seite aus"
+msgstr ""
+
+#: blogtemplatesfiles/admin/settings_menu.php:107
+msgid "\"Wähle dieses Theme\" Schaltflächentext"
+msgstr ""
+
+#: blogtemplatesfiles/admin/settings_menu.php:114
+msgid "Breite der Screenshots"
+msgstr ""
+
+#: blogtemplatesfiles/admin/settings_menu.php:118
+msgid "Ausgewählte Überlagerungsfarbe"
+msgstr ""
+
+#: blogtemplatesfiles/admin/settings_menu.php:122
+msgid "Nicht ausgewählte Überlagerungsfarbe"
+msgstr ""
+
+#: blogtemplatesfiles/admin/settings_menu.php:129
+msgid "Nicht ausgewählter Screenshot Hintergrundfarbe"
+msgstr ""
+
+#: blogtemplatesfiles/admin/settings_menu.php:133
+msgid "Ausgewählter Screenshot Hintergrundfarbe"
+msgstr ""
+
+#: blogtemplatesfiles/admin/settings_menu.php:137
+msgid "Art der Auswahl"
+msgstr ""
+
+#: blogtemplatesfiles/admin/settings_menu.php:141
+msgid "Kategorien-Symbolleiste"
+msgstr ""
+
+#: blogtemplatesfiles/admin/settings_menu.php:146
+msgid ""
+"Auf dem Auswahlbildschirm wird eine neue Symbolleiste angezeigt. Benutzer "
+"können nach Vorlagenkategorien filtern."
+msgstr ""
+
+#: blogtemplatesfiles/admin/settings_menu.php:148
+msgid "Menü Kategorien anzeigen"
+msgstr ""
+
+#: blogtemplatesfiles/admin/settings_menu.php:156
+msgid "Hintergrundfarbe der Symbolleiste"
+msgstr ""
+
+#: blogtemplatesfiles/admin/settings_menu.php:164
+msgid "Textfarbe der Symbolleiste"
+msgstr ""
+
+#: blogtemplatesfiles/admin/settings_menu.php:172
+msgid "Randfarbe der Symbolleiste"
+msgstr ""
+
+#: blogtemplatesfiles/admin/settings_menu.php:176
+msgid "Einstellungen speichern"
+msgstr ""
+
+#: blogtemplatesfiles/admin/settings_menu.php:266
+msgid "Optionen gespeichert."
+msgstr ""
+
+#: blogtemplatesfiles/blog_templates.php:220
+#, php-format
+msgid ""
+"<strong>New Blog Templates alert:</strong> The main site cannot be templated "
+"from 1.7.1 version, please <a href=\"%s\">go to settings page</a> and remove "
+"that template (will not be shown as a choice from now on)"
+msgstr ""
+
+#: blogtemplatesfiles/blog_templates.php:245
+#: blogtemplatesfiles/blog_templates_theme_selection_toolbar.php:127
+#: blogtemplatesfiles/template/blog_templates-registration.php:22
+msgid "None"
+msgstr ""
+
+#: blogtemplatesfiles/blog_templates.php:274
+msgid "Template"
+msgstr ""
+
+#: blogtemplatesfiles/blog_templates.php:391
+msgid "Default Blog Template"
+msgstr ""
+
+#: blogtemplatesfiles/blog_templates.php:394
+msgid "Default"
+msgstr ""
+
+#: blogtemplatesfiles/blog_templates.php:402
+msgid "Default Blog Template used for this domain."
+msgstr ""
+
+#: blogtemplatesfiles/blog_templates.php:429
+msgid "Blog Template"
+msgstr ""
+
+#: blogtemplatesfiles/blog_templates_lock_posts.php:45
+msgid "Post Status"
+msgstr ""
+
+#: blogtemplatesfiles/blog_templates_lock_posts.php:65
+msgid "Locked"
+msgstr ""
+
+#: blogtemplatesfiles/blog_templates_lock_posts.php:66
+msgid "Unlocked"
+msgstr ""
+
+#: blogtemplatesfiles/blog_templates_lock_posts.php:68
+msgid "Locked posts cannot be edited by anyone other than Super admins."
+msgstr ""
+
+#: blogtemplatesfiles/blog_templates_lock_posts.php:116
+msgid "[Blocked by Super Admin]"
+msgstr ""
+
+#: blogtemplatesfiles/blog_templates_theme_selection_toolbar.php:33
+msgid "ALLE"
+msgstr ""
+
+#: blogtemplatesfiles/copier.php:220
+#, php-format
+msgid ""
+"Insertion Error: %s - The template was not applied. (New Blog Templates - "
+"While inserting templated settings)"
+msgstr ""
+
+#: blogtemplatesfiles/copier.php:254
+#, php-format
+msgid ""
+"Deletion Error: %s - The template was not applied. (New Blog Templates - "
+"While removing auto-generated settings)"
+msgstr ""
+
+#: blogtemplatesfiles/copier.php:460
+#, php-format
+msgid ""
+"File System Error: Unable to create directory %s. (New Blog Templates - "
+"While copying files)"
+msgstr ""
+
+#: blogtemplatesfiles/copier.php:550
+#, php-format
+msgid ""
+"Insertion Error: %s - The template was not applied. (New Blog Templates - "
+"With CREATE TABLE query for Additional Tables)"
+msgstr ""
+
+#: blogtemplatesfiles/copier.php:741 blogtemplatesfiles/copier.php:854
+#, php-format
+msgid ""
+"Insertion Error: %1$s - The template was not applied. (New Blog Templates - "
+"While copying %2$s)"
+msgstr ""
+
+#: blogtemplatesfiles/copier.php:807
+#, php-format
+msgid ""
+"Deletion Error: %1$s - The template was not applied. (New Blog Templates - "
+"While clearing %2$s)"
+msgstr ""
+
+#: blogtemplatesfiles/helpers.php:43
+msgid "Als einfaches Auswahlfeld"
+msgstr ""
+
+#: blogtemplatesfiles/helpers.php:44
+msgid "Als Optionsfeldauswahl mit Beschreibungen"
+msgstr ""
+
+#: blogtemplatesfiles/helpers.php:45
+msgid "Als Theme Screenshot Auswahl"
+msgstr ""
+
+#: blogtemplatesfiles/helpers.php:46
+msgid "Als Theme Screenshot Auswahl mit Titeln und Beschreibung"
+msgstr ""
+
+#: blogtemplatesfiles/helpers.php:47
+msgid "Als Themenvorschau"
+msgstr ""
+
+#: blogtemplatesfiles/helpers.php:48
+msgid "Als Schaufenster innerhalb einer Seite"
+msgstr ""
+
+#: blogtemplatesfiles/integration/gravity-forms.php:89
+msgid "New Blog Templates"
+msgstr ""
+
+#: blogtemplatesfiles/integration/gravity-forms.php:95
+#: blogtemplatesfiles/integration/gravity-forms.php:99
+msgid "Display Templates Selector"
+msgstr ""
+
+#: blogtemplatesfiles/model.php:334 blogtemplatesfiles/upgrade.php:124
+msgid "Standardkategorie"
+msgstr ""
+
+#: blogtemplatesfiles/settings-handler.php:26 blogtemplatesfiles/upgrade.php:58
+msgid "Wähle diese Vorlage"
+msgstr ""
+
+#: blogtemplatesfiles/tables/categories_table.php:32
+msgid "Name"
+msgstr ""
+
+#: blogtemplatesfiles/tables/categories_table.php:33
+msgid "Beschreibung"
+msgstr ""
+
+#: blogtemplatesfiles/tables/categories_table.php:56
+#: blogtemplatesfiles/tables/templates_table.php:73
+#, php-format
+msgid "<a href=\"%s\">Bearbeiten</a>"
+msgstr ""
+
+#: blogtemplatesfiles/tables/categories_table.php:62
+#: blogtemplatesfiles/tables/templates_table.php:74
+#, php-format
+msgid "<a href=\"%s\">Löschen</a>"
+msgstr ""
+
+#: blogtemplatesfiles/tables/templates_table.php:78
+#, php-format
+msgid "<a href=\"%s\">Standard entfernen</a>"
+msgstr ""
+
+#: blogtemplatesfiles/tables/templates_table.php:79
+msgid "(Standard)"
+msgstr ""
+
+#: blogtemplatesfiles/tables/templates_table.php:82
+#, php-format
+msgid "<a href=\"%s\">Als Standard markieren</a>"
+msgstr ""
+
+#: blogtemplatesfiles/tables/templates_table.php:94
+msgid "Gehe zum Dashboard"
+msgstr ""
+
+#: blogtemplatesfiles/tables/templates_table.php:109
+msgid "Vorlagenname"
+msgstr ""
+
+#: blogtemplatesfiles/tables/templates_table.php:110
+msgid "Blog"
+msgstr ""
+
+#: blogtemplatesfiles/template/blog_templates-registration-description.php:14
+#: blogtemplatesfiles/template/blog_templates-registration-previewer.php:2
+#: blogtemplatesfiles/template/blog_templates-registration-screenshot.php:11
+#: blogtemplatesfiles/template/blog_templates-registration-screenshot_plus.php:11
+#: blogtemplatesfiles/template/blog_templates-registration.php:12
+msgid "Select a template"
+msgstr ""
+
+#: blogtemplatesfiles/template/blog_templates-registration-page-showcase.php:2
+msgid "Wähle eine Vorlage aus"
+msgstr ""
+
+#: blogtemplatesfiles/template/blog_templates-registration-page-showcase.php:13
+msgid "Ich möchte nur einen Benutzernamen, bitte."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Neue Blog-Vorlagen"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://n3rds.work/piestingtal_source/neue-blog-vorlagen/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Ermöglicht dem Webseiten-Administrator das Erstellen neuer Blogs basierend "
+"auf Vorlagen, um den Blog-Erstellungsprozess zu beschleunigen"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WMS N@W"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://n3rds.work"
+msgstr ""

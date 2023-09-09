@@ -95,6 +95,8 @@ Halte Dich mit unserem [Newsletter](https://n3rds.work/webmasterservice-n3rdswor
 = 2.9.0 = 
 
 *Fix: Unknown named parameter
+*Added: .pot file
+*Added: english.pot
 
 = 2.8.9 =
 

@@ -1,0 +1,813 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Neue Blog-Vorlagen\n"
+"POT-Creation-Date: 2023-09-09 17:28+0200\n"
+"PO-Revision-Date: 2023-09-09 17:30+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: blogtemplates.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: blogtemplates.php:39
+#, fuzzy
+msgid ""
+"Das Plugin für neue Blog-Vorlagen ist nur mit WordPress Multisite kompatibel."
+msgstr ""
+"The plugin for new blog templates is only compatible with WordPress "
+"Multisite."
+
+#: blogtemplates.php:244 blogtemplates.php:277
+#, fuzzy
+msgid "Demo anzeigen"
+msgstr "Show demo"
+
+#: blogtemplatesfiles/admin/categories_menu.php:35
+#: blogtemplatesfiles/admin/main_menu.php:336
+#, fuzzy
+msgid "Vorlagenkategorien"
+msgstr "Template categories"
+
+#: blogtemplatesfiles/admin/categories_menu.php:48
+#, fuzzy
+msgid "Änderungen wurden übernommen"
+msgstr "Changes were adopted"
+
+#: blogtemplatesfiles/admin/categories_menu.php:63
+#, fuzzy
+msgid "Die Kategorie existiert nicht"
+msgstr "The category does not exist"
+
+#: blogtemplatesfiles/admin/categories_menu.php:73
+#: blogtemplatesfiles/admin/categories_menu.php:112
+#, fuzzy
+msgid "Kategoriename"
+msgstr "Category name"
+
+#: blogtemplatesfiles/admin/categories_menu.php:81
+#: blogtemplatesfiles/admin/categories_menu.php:117
+#, fuzzy
+msgid "Kategoriebeschreibung"
+msgstr "Category description"
+
+#: blogtemplatesfiles/admin/categories_menu.php:108
+#: blogtemplatesfiles/admin/categories_menu.php:121
+#, fuzzy
+msgid "Neue Kategorie hinzufügen"
+msgstr "Add new category"
+
+#: blogtemplatesfiles/admin/categories_menu.php:136
+#: blogtemplatesfiles/admin/categories_menu.php:156
+#, fuzzy
+msgid "Sicherheitsüberprüfungsfehler"
+msgstr "Security clearance error"
+
+#: blogtemplatesfiles/admin/categories_menu.php:150
+#: blogtemplatesfiles/admin/categories_menu.php:170
+#, fuzzy
+msgid "Der Name darf nicht leer sein"
+msgstr "The name must not be empty"
+
+#: blogtemplatesfiles/admin/main_menu.php:61
+#: blogtemplatesfiles/admin/main_menu.php:129
+#, fuzzy
+msgid "Blog-Vorlagen"
+msgstr "Blog templates"
+
+#: blogtemplatesfiles/admin/main_menu.php:70
+msgid "Vorlagen"
+msgstr "Templates"
+
+#: blogtemplatesfiles/admin/main_menu.php:78
+msgid "Alle Kategorien"
+msgstr "All categories"
+
+#: blogtemplatesfiles/admin/main_menu.php:97
+#, fuzzy
+msgid "Alle Seiten"
+msgstr "All pages"
+
+#: blogtemplatesfiles/admin/main_menu.php:136
+#, fuzzy
+msgid "Neue Blog-Vorlage erstellen"
+msgstr "Create new blog template"
+
+#: blogtemplatesfiles/admin/main_menu.php:137
+#, fuzzy
+msgid ""
+"Erstelle eine Blog-Vorlage basierend auf dem Blog Deiner Wahl! Auf diese "
+"Weise kannst Du (und andere Administratoren) alle Einstellungen des "
+"ausgewählten Blogs kopieren und andere Blogs erstellen, die fast exakte "
+"Kopien dieses Blogs sind. (Der Name, die URL usw. des Blogs ändern sich, "
+"sodass es sich nicht um eine 100%ige Kopie handelt.)"
+msgstr ""
+"Create a blog template based on the blog of your choice! This way you (and "
+"other administrators) can copy all the settings of the chosen blog and "
+"create other blogs that are almost exact copies of this blog. (The name, "
+"URL, etc. of the blog will change, so it is not a 100%ith copy)"
+
+#: blogtemplatesfiles/admin/main_menu.php:138
+#, fuzzy
+msgid ""
+"Fülle einfach das folgende Formular aus und klicke auf \"Blog-Vorlage "
+"erstellen!\" um die Vorlage für die spätere Verwendung zu generieren!"
+msgstr ""
+"Simply fill out the following form and click on \"Create blog template!\" to "
+"generate the template for later use!"
+
+#: blogtemplatesfiles/admin/main_menu.php:142
+#: blogtemplatesfiles/admin/main_menu.php:186
+#, fuzzy
+msgid "Vorlagenname:"
+msgstr "Template name:"
+
+#: blogtemplatesfiles/admin/main_menu.php:145
+#, fuzzy
+msgid "Blog ID"
+msgstr "Blog ID"
+
+#: blogtemplatesfiles/admin/main_menu.php:147
+#, fuzzy
+msgid "Oder suche nach Blog-Pfad"
+msgstr "Or search for blog path"
+
+#: blogtemplatesfiles/admin/main_menu.php:149
+#, fuzzy
+msgid ""
+"Wenn der gesuchte Blog beispielsweise eine URL wie http://ablog.mydomain.com "
+"hat, kannst Du \"ablog\" eingeben."
+msgstr ""
+"For example, if the blog you are looking for has a URL like http://ablog."
+"mydomain.com, you can enter \"ablog\"."
+
+#: blogtemplatesfiles/admin/main_menu.php:152
+#, fuzzy
+msgid "Blog ID:"
+msgstr "Blog ID:"
+
+#: blogtemplatesfiles/admin/main_menu.php:156
+#, fuzzy
+msgid "Vorlagenbeschreibung:"
+msgstr "Template Description:"
+
+#: blogtemplatesfiles/admin/main_menu.php:160
+#, fuzzy
+msgid ""
+"Nachdem Du diese Vorlage hinzugefügt hast, werden auf dem "
+"Bearbeitungsbildschirm eine Reihe von Optionen angezeigt."
+msgstr ""
+"After you have added this template, a number of options will appear on the "
+"editing screen."
+
+#: blogtemplatesfiles/admin/main_menu.php:162
+#, fuzzy
+msgid "Mehr Optionen"
+msgstr "More options"
+
+#: blogtemplatesfiles/admin/main_menu.php:165
+#, fuzzy
+msgid ""
+"Bitte beachte, dass dadurch der von Dir ausgewählte Blog in einen "
+"Vorlagenblog umgewandelt wird. Alle Änderungen, die Du an diesem Blog "
+"vornimmst, ändern auch die Vorlage! Wir empfehlen, zu diesem Zweck spezielle "
+"\"Vorlagen-Blogs\" zu erstellen, damit Du nicht versehentlich neue "
+"Einstellungen, Inhalte oder Benutzer hinzufügst, die Du nicht in Deiner "
+"Vorlage haben möchtest."
+msgstr ""
+"Please note that this will change the blog you selected into a template "
+"blog. Any changes you make to this blog will also change the template! We "
+"recommend that you create special \"template blogs\" for this purpose, so "
+"that you do not accidentally add new settings, content or users that you do "
+"not want in your template."
+
+#: blogtemplatesfiles/admin/main_menu.php:166
+#, fuzzy, php-format
+msgid ""
+"Wenn Du also ein dediziertes Vorlagenblog für diese Vorlage erstellen "
+"möchtest, erstelle <a href=\"%1$s\">einen neuen Blog</a> und besuche diese "
+"Seite, um die Vorlage zu erstellen."
+msgstr ""
+"So if you want to create a dedicated template blog for this template, create "
+"<a href=\"%1$s\">a new blog</a> and visit this page to create the template."
+
+#: blogtemplatesfiles/admin/main_menu.php:168
+#, fuzzy
+msgid "Erstelle eine Blog-Vorlage!"
+msgstr "Create a blog template!"
+
+#: blogtemplatesfiles/admin/main_menu.php:177
+#, fuzzy
+msgid "Blog-Vorlage bearbeiten"
+msgstr "Edit Blog Template"
+
+#: blogtemplatesfiles/admin/main_menu.php:178
+#, fuzzy
+msgid "Zurück zu Blog-Vorlagen"
+msgstr "Back to Blog Templates"
+
+#: blogtemplatesfiles/admin/main_menu.php:190
+#, fuzzy
+msgid "Vorlagenbeschreibung"
+msgstr "Template description"
+
+#: blogtemplatesfiles/admin/main_menu.php:196
+#, fuzzy
+msgid "Wordpress-Einstellungen, aktuelles Thema und aktive Plugins"
+msgstr "Wordpress settings, current theme and active plugins"
+
+#: blogtemplatesfiles/admin/main_menu.php:200
+#, fuzzy
+msgid "Beiträge"
+msgstr "Contributions"
+
+#: blogtemplatesfiles/admin/main_menu.php:204
+msgid "Seiten"
+msgstr "Sites"
+
+#: blogtemplatesfiles/admin/main_menu.php:208
+#, fuzzy
+msgid "Kategorien, Tags und Links"
+msgstr "Categories, tags and links"
+
+#: blogtemplatesfiles/admin/main_menu.php:212
+msgid "Benutzer"
+msgstr "User"
+
+#: blogtemplatesfiles/admin/main_menu.php:216
+#, fuzzy
+msgid "Menüs"
+msgstr "Menus"
+
+#: blogtemplatesfiles/admin/main_menu.php:220
+msgid "Dateien"
+msgstr "Data"
+
+#: blogtemplatesfiles/admin/main_menu.php:238
+#, fuzzy
+msgid "Was in den neuen Blog kopieren?"
+msgstr "Copy what to the new blog?"
+
+#: blogtemplatesfiles/admin/main_menu.php:244
+#, fuzzy
+msgid ""
+"Überprüfe, ob Du auch den Blog-Status kopieren möchtest (öffentlich oder "
+"nicht)."
+msgstr "Check whether you also want to copy the blog status (public or not)."
+
+#: blogtemplatesfiles/admin/main_menu.php:245
+#, fuzzy
+msgid "Status übernehmen?"
+msgstr "Take over status?"
+
+#: blogtemplatesfiles/admin/main_menu.php:251
+#, fuzzy
+msgid ""
+"Wenn diese Option ausgewählt ist, dürfen die in der Vorlage enthaltenen "
+"Seiten und Beiträge nicht bearbeitet werden (auch nicht für den Blog-"
+"Administrator). Nur Superadministratoren können den Text kopierter Beiträge/"
+"Seiten bearbeiten."
+msgstr ""
+"If this option is selected, the pages and posts contained in the template "
+"may not be edited (not even for the blog administrator). Only super "
+"administrators can edit the text of copied posts/pages."
+
+#: blogtemplatesfiles/admin/main_menu.php:252
+#, fuzzy
+msgid "Beiträge/Seiten sperren"
+msgstr "Lock posts/pages"
+
+#: blogtemplatesfiles/admin/main_menu.php:258
+#, fuzzy
+msgid ""
+"Wenn diese Option ausgewählt ist, werden die Daten der Beiträge/Seiten auf "
+"das Datum aktualisiert, an dem der Blog erstellt wird"
+msgstr ""
+"If this option is selected, the dates of the posts/pages are updated to the "
+"date when the blog is created"
+
+#: blogtemplatesfiles/admin/main_menu.php:260
+#, fuzzy
+msgid "Daten aktualisieren"
+msgstr "Update data"
+
+#: blogtemplatesfiles/admin/main_menu.php:274
+#, fuzzy
+msgid "Neuen Screenshot hochladen"
+msgstr "Upload new screenshot"
+
+#: blogtemplatesfiles/admin/main_menu.php:277
+#, fuzzy
+msgid "Screenshot zurücksetzen"
+msgstr "Reset screenshot"
+
+#: blogtemplatesfiles/admin/main_menu.php:279
+#: blogtemplatesfiles/tables/templates_table.php:111
+#, fuzzy
+msgid "Screenshot"
+msgstr "Screenshot"
+
+#: blogtemplatesfiles/admin/main_menu.php:283
+#, fuzzy
+msgid "Erweiterte Optionen"
+msgstr "Advanced options"
+
+#: blogtemplatesfiles/admin/main_menu.php:290
+#, fuzzy, php-format
+msgid ""
+"Die hier aufgeführten Tabellen wurden wahrscheinlich von Plugins erstellt, "
+"die Du derzeit in diesem Blog aktiv hast oder ausgeführt hast. Wenn Du "
+"möchtest, dass die Daten aus diesen Tabellen in Deine neuen Blogs kopiert "
+"werden, setze ein Häkchen neben die Tabelle. Beachte, dass die einzigen hier "
+"angezeigten Tabellen mit %s beginnen. Dies ist das Standardtabellenpräfix "
+"für diesen bestimmten Blog. Bei Plugins, die dieser Konvention nicht folgen, "
+"werden die Tabellen hier nicht aufgelistet."
+msgstr ""
+"The tables listed here were probably created by plugins that you currently "
+"have active or running on this blog. If you want the data from these tables "
+"to be copied to your new blogs, place a tick next to the table. Note that "
+"the only tables shown here start with %s. This is the default table prefix "
+"for that particular blog. For plugins that do not follow this convention, "
+"the tables will not be listed here."
+
+#: blogtemplatesfiles/admin/main_menu.php:310
+#, fuzzy
+msgid "Für diesen Blog sind keine zusätzlichen Tabellen zum anzeigen vorhanden"
+msgstr "There are no additional tables to display for this blog"
+
+#: blogtemplatesfiles/admin/main_menu.php:315
+#, fuzzy
+msgid "Zusätzliche Tabellen"
+msgstr "Additional tables"
+
+#: blogtemplatesfiles/admin/main_menu.php:356
+#, fuzzy
+msgid "Vorlage speichern"
+msgstr "Save template"
+
+#: blogtemplatesfiles/admin/main_menu.php:375
+#: blogtemplatesfiles/admin/main_menu.php:377
+#: blogtemplatesfiles/admin/main_menu.php:379
+#: blogtemplatesfiles/admin/settings_menu.php:46
+#: blogtemplatesfiles/admin/settings_menu.php:193
+#: blogtemplatesfiles/admin/settings_menu.php:195
+#: blogtemplatesfiles/admin/settings_menu.php:197
+msgid "Einstellungen"
+msgstr "Settings"
+
+#: blogtemplatesfiles/admin/main_menu.php:414
+#: blogtemplatesfiles/admin/main_menu.php:513
+#: blogtemplatesfiles/admin/main_menu.php:548
+#: blogtemplatesfiles/admin/main_menu.php:562
+#: blogtemplatesfiles/admin/main_menu.php:578
+#: blogtemplatesfiles/admin/settings_menu.php:232
+#, fuzzy
+msgid ""
+"Hoppla! Es ist ein Problem mit den von Dir veröffentlichten Daten "
+"aufgetreten. Bitte gehe zurück und versuche es erneut. (Erstellt von Neue "
+"Blog-Vorlagen)"
+msgstr ""
+"Oops, there was a problem with the data you posted. Please go back and try "
+"again. (Created by New Blog Templates)"
+
+#: blogtemplatesfiles/admin/main_menu.php:430
+#, fuzzy
+msgid ""
+"Die hochgeladene Datei ist kein gültiges Bild. Bitte versuche es erneut."
+msgstr "The uploaded file is not a valid image. Please try again."
+
+#: blogtemplatesfiles/admin/main_menu.php:508
+#, fuzzy
+msgid "Deine Änderungen wurden erfolgreich gespeichert!"
+msgstr "Your changes have been successfully saved!"
+
+#: blogtemplatesfiles/admin/main_menu.php:516
+#, fuzzy
+msgid ""
+"Hoppla! Die von Dir gepostete Blog-ID ist falsch. Bitte gehe zurück und "
+"versuche es erneut. (Erstellt von Neue Blog-Vorlagen)"
+msgstr ""
+"Oops! The blog ID you posted is wrong. Please go back and try again. "
+"(Created by New Blog Templates)"
+
+#: blogtemplatesfiles/admin/main_menu.php:519
+#, fuzzy
+msgid ""
+"Hoppla! Die von Dir gepostete Blog-ID ist falsch. Du kannst die Hauptseite "
+"nicht vorlegen. Bitte gehe zurück und versuche es erneut. (Erstellt von Neue "
+"Blog-Vorlagen)"
+msgstr ""
+"Oops! The blog ID you posted is wrong. You cannot submit the main page. "
+"Please go back and try again. (Created by New Blog Templates)"
+
+#: blogtemplatesfiles/admin/main_menu.php:521
+#, fuzzy
+msgid "Eine Vorlage"
+msgstr "One template"
+
+#: blogtemplatesfiles/admin/main_menu.php:556
+#, fuzzy
+msgid "Die Standardvorlage wurde erfolgreich deaktiviert."
+msgstr "The default template has been successfully deactivated."
+
+#: blogtemplatesfiles/admin/main_menu.php:572
+#, fuzzy
+msgid "Die Standardvorlage wurde erfolgreich aktualisiert."
+msgstr "The standard template has been successfully updated."
+
+#: blogtemplatesfiles/admin/main_menu.php:582
+#, fuzzy
+msgid "Erfolg! Die Vorlage wurde erfolgreich gelöscht."
+msgstr "Success! The template was successfully deleted."
+
+#: blogtemplatesfiles/admin/settings_menu.php:66
+msgid "Optionen"
+msgstr "Options"
+
+#: blogtemplatesfiles/admin/settings_menu.php:68
+#, fuzzy
+msgid "Vorlagenauswahl"
+msgstr "Template selection"
+
+#: blogtemplatesfiles/admin/settings_menu.php:73
+#, fuzzy
+msgid ""
+"Wenn Du diese Option auswählst, können Deine neuen Benutzer bei der "
+"Anmeldung für eine Webseite zwischen Vorlagen wählen."
+msgstr ""
+"If you select this option, your new users will be able to choose between "
+"templates when registering for a website."
+
+#: blogtemplatesfiles/admin/settings_menu.php:75
+#, fuzzy
+msgid "Vorlagenauswahl bei Registrierung anzeigen:"
+msgstr "Show template selection during registration:"
+
+#: blogtemplatesfiles/admin/settings_menu.php:96
+#, fuzzy
+msgid "Wähle eine Seite aus"
+msgstr "Select a page"
+
+#: blogtemplatesfiles/admin/settings_menu.php:107
+#, fuzzy
+msgid "\"Wähle dieses Theme\" Schaltflächentext"
+msgstr "\"Choose this theme\" button text"
+
+#: blogtemplatesfiles/admin/settings_menu.php:114
+#, fuzzy
+msgid "Breite der Screenshots"
+msgstr "Width of the screenshots"
+
+#: blogtemplatesfiles/admin/settings_menu.php:118
+#, fuzzy
+msgid "Ausgewählte Überlagerungsfarbe"
+msgstr "Selected overlay colour"
+
+#: blogtemplatesfiles/admin/settings_menu.php:122
+#, fuzzy
+msgid "Nicht ausgewählte Überlagerungsfarbe"
+msgstr "Not selected overlay colour"
+
+#: blogtemplatesfiles/admin/settings_menu.php:129
+#, fuzzy
+msgid "Nicht ausgewählter Screenshot Hintergrundfarbe"
+msgstr "Not selected screenshot background colour"
+
+#: blogtemplatesfiles/admin/settings_menu.php:133
+#, fuzzy
+msgid "Ausgewählter Screenshot Hintergrundfarbe"
+msgstr "Selected screenshot background colour"
+
+#: blogtemplatesfiles/admin/settings_menu.php:137
+#, fuzzy
+msgid "Art der Auswahl"
+msgstr "Selection type"
+
+#: blogtemplatesfiles/admin/settings_menu.php:141
+#, fuzzy
+msgid "Kategorien-Symbolleiste"
+msgstr "Categories toolbar"
+
+#: blogtemplatesfiles/admin/settings_menu.php:146
+#, fuzzy
+msgid ""
+"Auf dem Auswahlbildschirm wird eine neue Symbolleiste angezeigt. Benutzer "
+"können nach Vorlagenkategorien filtern."
+msgstr ""
+"A new toolbar is displayed on the selection screen. Users can filter by "
+"template category."
+
+#: blogtemplatesfiles/admin/settings_menu.php:148
+#, fuzzy
+msgid "Menü Kategorien anzeigen"
+msgstr "Show menu categories"
+
+#: blogtemplatesfiles/admin/settings_menu.php:156
+#, fuzzy
+msgid "Hintergrundfarbe der Symbolleiste"
+msgstr "Toolbar background colour"
+
+#: blogtemplatesfiles/admin/settings_menu.php:164
+#, fuzzy
+msgid "Textfarbe der Symbolleiste"
+msgstr "Toolbar text colour"
+
+#: blogtemplatesfiles/admin/settings_menu.php:172
+#, fuzzy
+msgid "Randfarbe der Symbolleiste"
+msgstr "Border colour of the toolbar"
+
+#: blogtemplatesfiles/admin/settings_menu.php:176
+msgid "Einstellungen speichern"
+msgstr "save settings"
+
+#: blogtemplatesfiles/admin/settings_menu.php:266
+#, fuzzy
+msgid "Optionen gespeichert."
+msgstr "Options saved."
+
+#: blogtemplatesfiles/blog_templates.php:220
+#, fuzzy, php-format
+msgid ""
+"<strong>New Blog Templates alert:</strong> The main site cannot be templated "
+"from 1.7.1 version, please <a href=\"%s\">go to settings page</a> and remove "
+"that template (will not be shown as a choice from now on)"
+msgstr ""
+"<strong>New Blog Templates alert:</strong> The main site cannot be templated "
+"from 1.7.1 version, please <a href=\"%s\">go to settings page</a> and remove "
+"that template (will not be shown as a choice from now on)"
+
+#: blogtemplatesfiles/blog_templates.php:245
+#: blogtemplatesfiles/blog_templates_theme_selection_toolbar.php:127
+#: blogtemplatesfiles/template/blog_templates-registration.php:22
+#, fuzzy
+msgid "None"
+msgstr "None"
+
+#: blogtemplatesfiles/blog_templates.php:274
+#, fuzzy
+msgid "Template"
+msgstr "Template"
+
+#: blogtemplatesfiles/blog_templates.php:391
+#, fuzzy
+msgid "Default Blog Template"
+msgstr "Default Blog Template"
+
+#: blogtemplatesfiles/blog_templates.php:394
+#, fuzzy
+msgid "Default"
+msgstr "Default"
+
+#: blogtemplatesfiles/blog_templates.php:402
+#, fuzzy
+msgid "Default Blog Template used for this domain."
+msgstr "Default Blog Template used for this domain."
+
+#: blogtemplatesfiles/blog_templates.php:429
+#, fuzzy
+msgid "Blog Template"
+msgstr "Blog Template"
+
+#: blogtemplatesfiles/blog_templates_lock_posts.php:45
+#, fuzzy
+msgid "Post Status"
+msgstr "Post status"
+
+#: blogtemplatesfiles/blog_templates_lock_posts.php:65
+#, fuzzy
+msgid "Locked"
+msgstr "Locked"
+
+#: blogtemplatesfiles/blog_templates_lock_posts.php:66
+#, fuzzy
+msgid "Unlocked"
+msgstr "Unlocked"
+
+#: blogtemplatesfiles/blog_templates_lock_posts.php:68
+#, fuzzy
+msgid "Locked posts cannot be edited by anyone other than Super admins."
+msgstr "Locked posts cannot be edited by anyone other than Super admins."
+
+#: blogtemplatesfiles/blog_templates_lock_posts.php:116
+#, fuzzy
+msgid "[Blocked by Super Admin]"
+msgstr "[Blocked by Super Admin]"
+
+#: blogtemplatesfiles/blog_templates_theme_selection_toolbar.php:33
+#, fuzzy
+msgid "ALLE"
+msgstr "ALL"
+
+#: blogtemplatesfiles/copier.php:220
+#, fuzzy, php-format
+msgid ""
+"Insertion Error: %s - The template was not applied. (New Blog Templates - "
+"While inserting templated settings)"
+msgstr ""
+"Insertion Error: %s - The template was not applied. (New Blog Templates - "
+"While inserting templated settings)"
+
+#: blogtemplatesfiles/copier.php:254
+#, fuzzy, php-format
+msgid ""
+"Deletion Error: %s - The template was not applied. (New Blog Templates - "
+"While removing auto-generated settings)"
+msgstr ""
+"Deletion Error: %s - The template was not applied. (New Blog Templates - "
+"While removing auto-generated settings)"
+
+#: blogtemplatesfiles/copier.php:460
+#, fuzzy, php-format
+msgid ""
+"File System Error: Unable to create directory %s. (New Blog Templates - "
+"While copying files)"
+msgstr ""
+"File System Error: Unable to create directory %s. (New Blog Templates - "
+"While copying files)"
+
+#: blogtemplatesfiles/copier.php:550
+#, fuzzy, php-format
+msgid ""
+"Insertion Error: %s - The template was not applied. (New Blog Templates - "
+"With CREATE TABLE query for Additional Tables)"
+msgstr ""
+"Insertion Error: %s - The template was not applied. (New Blog Templates - "
+"With CREATE TABLE query for Additional Tables)"
+
+#: blogtemplatesfiles/copier.php:741 blogtemplatesfiles/copier.php:854
+#, fuzzy, php-format
+msgid ""
+"Insertion Error: %1$s - The template was not applied. (New Blog Templates - "
+"While copying %2$s)"
+msgstr ""
+"Insertion Error: %1$s - The template was not applied. (New Blog Templates - "
+"While copying %2$s)"
+
+#: blogtemplatesfiles/copier.php:807
+#, fuzzy, php-format
+msgid ""
+"Deletion Error: %1$s - The template was not applied. (New Blog Templates - "
+"While clearing %2$s)"
+msgstr ""
+"Deletion Error: %1$s - The template was not applied. (New Blog Templates - "
+"While clearing %2$s)"
+
+#: blogtemplatesfiles/helpers.php:43
+#, fuzzy
+msgid "Als einfaches Auswahlfeld"
+msgstr "As a simple selection field"
+
+#: blogtemplatesfiles/helpers.php:44
+#, fuzzy
+msgid "Als Optionsfeldauswahl mit Beschreibungen"
+msgstr "As option field selection with descriptions"
+
+#: blogtemplatesfiles/helpers.php:45
+#, fuzzy
+msgid "Als Theme Screenshot Auswahl"
+msgstr "As Theme Screenshot Selection"
+
+#: blogtemplatesfiles/helpers.php:46
+#, fuzzy
+msgid "Als Theme Screenshot Auswahl mit Titeln und Beschreibung"
+msgstr "As theme screenshot selection with titles and description"
+
+#: blogtemplatesfiles/helpers.php:47
+#, fuzzy
+msgid "Als Themenvorschau"
+msgstr "As a topic preview"
+
+#: blogtemplatesfiles/helpers.php:48
+#, fuzzy
+msgid "Als Schaufenster innerhalb einer Seite"
+msgstr "As a shop window within a page"
+
+#: blogtemplatesfiles/integration/gravity-forms.php:89
+#, fuzzy
+msgid "New Blog Templates"
+msgstr "New Blog Templates"
+
+#: blogtemplatesfiles/integration/gravity-forms.php:95
+#: blogtemplatesfiles/integration/gravity-forms.php:99
+#, fuzzy
+msgid "Display Templates Selector"
+msgstr "Display Templates Selector"
+
+#: blogtemplatesfiles/model.php:334 blogtemplatesfiles/upgrade.php:124
+#, fuzzy
+msgid "Standardkategorie"
+msgstr "Standard category"
+
+#: blogtemplatesfiles/settings-handler.php:26 blogtemplatesfiles/upgrade.php:58
+#, fuzzy
+msgid "Wähle diese Vorlage"
+msgstr "Choose this template"
+
+#: blogtemplatesfiles/tables/categories_table.php:32
+msgid "Name"
+msgstr "Name"
+
+#: blogtemplatesfiles/tables/categories_table.php:33
+msgid "Beschreibung"
+msgstr "Description"
+
+#: blogtemplatesfiles/tables/categories_table.php:56
+#: blogtemplatesfiles/tables/templates_table.php:73
+#, fuzzy, php-format
+msgid "<a href=\"%s\">Bearbeiten</a>"
+msgstr "<a href=\"%s\">Edit</a>"
+
+#: blogtemplatesfiles/tables/categories_table.php:62
+#: blogtemplatesfiles/tables/templates_table.php:74
+#, fuzzy, php-format
+msgid "<a href=\"%s\">Löschen</a>"
+msgstr "<a href=\"%s\">Delete</a>"
+
+#: blogtemplatesfiles/tables/templates_table.php:78
+#, fuzzy, php-format
+msgid "<a href=\"%s\">Standard entfernen</a>"
+msgstr "<a href=\"%s\">Remove Standard</a>"
+
+#: blogtemplatesfiles/tables/templates_table.php:79
+#, fuzzy
+msgid "(Standard)"
+msgstr "(Standard)"
+
+#: blogtemplatesfiles/tables/templates_table.php:82
+#, fuzzy, php-format
+msgid "<a href=\"%s\">Als Standard markieren</a>"
+msgstr "<a href=\"%s\">Mark as standard</a>"
+
+#: blogtemplatesfiles/tables/templates_table.php:94
+#, fuzzy
+msgid "Gehe zum Dashboard"
+msgstr "Go to the Dashboard"
+
+#: blogtemplatesfiles/tables/templates_table.php:109
+#, fuzzy
+msgid "Vorlagenname"
+msgstr "Template name"
+
+#: blogtemplatesfiles/tables/templates_table.php:110
+#, fuzzy
+msgid "Blog"
+msgstr "Blog"
+
+#: blogtemplatesfiles/template/blog_templates-registration-description.php:14
+#: blogtemplatesfiles/template/blog_templates-registration-previewer.php:2
+#: blogtemplatesfiles/template/blog_templates-registration-screenshot.php:11
+#: blogtemplatesfiles/template/blog_templates-registration-screenshot_plus.php:11
+#: blogtemplatesfiles/template/blog_templates-registration.php:12
+#, fuzzy
+msgid "Select a template"
+msgstr "Select a template"
+
+#: blogtemplatesfiles/template/blog_templates-registration-page-showcase.php:2
+#, fuzzy
+msgid "Wähle eine Vorlage aus"
+msgstr "Select a template"
+
+#: blogtemplatesfiles/template/blog_templates-registration-page-showcase.php:13
+#, fuzzy
+msgid "Ich möchte nur einen Benutzernamen, bitte."
+msgstr "I just want a username, please."
+
+#. Plugin Name of the plugin/theme
+#, fuzzy
+msgid "Neue Blog-Vorlagen"
+msgstr "New Blog Templates"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "https://n3rds.work/piestingtal_source/neue-blog-vorlagen/"
+msgstr "https://n3rds.work/piestingtal_source/neue-blog-vorlagen/"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid ""
+"Ermöglicht dem Webseiten-Administrator das Erstellen neuer Blogs basierend "
+"auf Vorlagen, um den Blog-Erstellungsprozess zu beschleunigen"
+msgstr ""
+"Allows the website administrator to create new blogs based on templates in "
+"order to speed up the blog creation process"
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "WMS N@W"
+msgstr "WMS N@W"
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "https://n3rds.work"
+msgstr "https://n3rds.work"
