@@ -2,7 +2,7 @@
 
 /** GRAVITY FORMS **/
 
-// Triggered when New Blog Templates class is created
+// Triggered when Neue Blog-Vorlagen class is created
 add_action( 'nbt_object_create', 'set_gravity_forms_hooks' );
 
 /**
@@ -86,7 +86,7 @@ function nbt_gf_form_render( $button_input, $form ) {
 
 function nbt_gf_userregistration_feed_settings( $settings ) {
 	$settings['nbt'] = array(
-		'title' => __( 'New Blog Templates', 'blog_templates' ),
+		'title' => __( 'Neue Blog-Vorlagen', 'blog_templates' ),
 		'description' => '',
 		'dependency' => array(),
 		'fields' => array(
