@@ -16,7 +16,7 @@ jQuery(document).ready(function($) {
 				}	
 			});
 
-			postboxes_checkboxes.change(function() {
+			postboxes_checkboxes.on('change', function() {
 				var item = $(this);
 
 				if ( item.hasClass('all-selector') ) {

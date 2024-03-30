@@ -5,7 +5,7 @@ Plugin URI: https://cp-psource.github.io/blogvorlagen/
 Description: Ermöglicht dem Webseiten-Administrator das Erstellen neuer Blogs basierend auf Vorlagen, um den Blog-Erstellungsprozess zu beschleunigen
 Author: PSOURCE
 Author URI: https://github.com/cp-psource
-Version: 2.9.0
+Version: 2.9.1
 Network: true
 Text Domain: blog_templates
 Domain Path: languages
@@ -47,7 +47,7 @@ $myUpdateChecker->setBranch('master');
  * @@@@@@@@@@@@@@@@@ ENDE PS UPDATER 1.3 @@@@@@@@@@@
  **/
 
-define( 'NBT_PLUGIN_VERSION', '2.9.0' );
+define( 'NBT_PLUGIN_VERSION', '2.9.1' );
 if ( ! is_multisite() )
 	exit( __( 'Das Plugin für neue Blog-Vorlagen ist nur mit WordPress Multisite kompatibel.', 'blog_templates' ) );
 

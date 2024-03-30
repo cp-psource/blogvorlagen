@@ -6,7 +6,7 @@ jQuery(document).ready(function($) {
 	hidden_fields.hide();
 	$( '.' + type_selection_selected + '-hidden-fields' ).show();
 
-	$('input[name=registration-templates-appearance]').change(function(e) {
+	$('input[name=registration-templates-appearance]').on('change', function(e) {
 		var value = $(this).val();
 		hidden_fields.hide();
 		$( '.' + value + '-hidden-fields' ).slideDown();

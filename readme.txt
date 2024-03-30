@@ -3,7 +3,7 @@ Contributors: DerN3rd (PSOURCE)
 Tags: multisite, blogvorlagen, classicpress, wordpress, psource
 Requires at least: 3.8
 Tested up to: 5.6
-Stable tag: 2.9.0
+Stable tag: 2.9.1
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -42,12 +42,18 @@ Du kannst Deine Hauptseite nicht als Vorlagenblog verwenden! Du erhältst eine k
 
 == ChangeLog ==
 
+= 2.9.1 =
+
+* Fix: jQuery .change()
+* Fix: PhP8 Problems
+* Add: Updater 1.3
+
 = 2.9.0 = 
 
-*Fix: Unknown named parameter
-*Added: .pot file
-*Added: english.pot
-*Upgrade: Psource Updater v1.1
+* Fix: Unknown named parameter
+* Added: .pot file
+* Added: english.pot
+* Upgrade: Psource Updater v1.1
 
 = 2.8.9 =
 
