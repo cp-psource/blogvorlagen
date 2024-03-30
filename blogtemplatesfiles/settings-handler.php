@@ -82,20 +82,22 @@ class NBT_Plugin_Settings_Handler {
 	 */
 	private function init_settings() {
 		$current_settings = get_site_option( $this->settings_slug );
-		
+	
+		if ( false === $current_settings ) {
+			$current_settings = array(); // Initialize settings as an empty array if not retrieved properly
+		}
+	
 		$model = nbt_get_model();
 		$current_settings['templates'] = $model->get_templates();
-
+	
 		foreach( $current_settings['templates'] as $key => $template ) {
-            $options = $template['options'];
-            unset( $current_settings['templates'][ $key ]['options'] );
-            $current_settings['templates'][ $key ] = array_merge( $current_settings['templates'][ $key ], $options );
-        }
-
-        $this->settings = wp_parse_args( $current_settings, $this->get_default_settings() );
-
+			$options = $template['options'];
+			unset( $current_settings['templates'][ $key ]['options'] );
+			$current_settings['templates'][ $key ] = array_merge( $current_settings['templates'][ $key ], $options );
+		}
+	
+		$this->settings = wp_parse_args( $current_settings, $this->get_default_settings() );
 	}
-
 
 	/**
 	 * Get the settings slug used on DB
@@ -105,8 +107,4 @@ class NBT_Plugin_Settings_Handler {
 	public function get_settings_slug() {
 		return $this->settings_slug;
 	}
-
-
-
-
 }

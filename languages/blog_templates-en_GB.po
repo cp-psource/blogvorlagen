@@ -804,8 +804,8 @@ msgstr ""
 
 #. Author of the plugin/theme
 #, fuzzy
-msgid "WMS N@W"
-msgstr "WMS N@W"
+msgid "PSOURCE"
+msgstr "PSOURCE"
 
 #. Author URI of the plugin/theme
 #, fuzzy

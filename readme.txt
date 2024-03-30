@@ -1,6 +1,5 @@
 === Neue Blog-Vorlagen ===
-Contributors: DerN3rd (WMS N@W)
-Donate link: https://n3rds.work/spendenaktionen/unterstuetze-unsere-psource-free-werke/
+Contributors: DerN3rd (PSOURCE)
 Tags: multisite, blogvorlagen, classicpress, wordpress, psource
 Requires at least: 3.8
 Tested up to: 5.6
@@ -35,59 +34,11 @@ Die Webseite, die Du für die Verwendung als Vorlage angepasst hast, dient aussc
 Änderungen an einem Vorlagenblog wirken sich auf Webseiten aus, die nach den neuen Änderungen erstellt wurden. Sie wirken sich nicht auf bereits erstellte Webseiten aus.
 Du kannst Deine Hauptseite nicht als Vorlagenblog verwenden! Du erhältst eine kleine Erinnerung, wenn Du es versuchst.
 
-[POWERED BY PSOURCE](https://n3rds.work/psource_kategorien/psource-plugins/)
+[POWERED BY PSOURCE](https://github.com/cp-psource)
 
-[Projektseite](https://n3rds.work/piestingtal_source/neue-blog-vorlagen/)
-[Supportforum](https://n3rds.work/forums/forum/psource-support-foren/blogvorlagen-plugin-supportforum/)
+[Projektseite](https://cp-psource.github.io/blogvorlagen/)
 [GitHub](https://github.com/piestingtal-source/blogtemplates)
 
-== Mehr PSOURCE ==
-
-= Volle Kontrolle über Inhalts-Vorlagen =
-
-[Mit dem Multisite Content Kopierer](https://n3rds.work/piestingtal_source/multisite-content-kopierer/)
-
-Multisite Content Kopierer ist die perfekte Lösung zum Kopieren von Beiträgen, Seiten, Benutzern und sogar Plugins auf andere Seiten in Deinem Multisite-Netzwerk.
-
-= Klone Einstellungen und Rechte =
-
-[Cloner ergänzt Blogvorlagen vollständig.](https://n3rds.work/piestingtal_source/cloner-klone-inhalte-in-multisite-per-mausklick/)
-
-Cloner kopiert jede WordPress-Webseite in Deinem Multisite-Netzwerk und verschiebt sie mit einem Klick auf eine beliebige URL im selben Netzwerk.
-Designänderungen vorzunehmen, eine neue Codezeile hinzuzufügen oder Dein Theme auf einer Live-Site zu optimieren, ist ein riskantes Geschäft. 
-Nur das Aktivieren des falschen Plugins kann Deine Webseite beschädigen. 
-Mit Cloner kannst Du Webseiten problemlos in Deinem Netzwerk verwalten und verschieben, um sie stressfrei bearbeiten zu können.
-
-Migrieren, Stage, Backup
-Mit Cloner können Webseiten-Migration, Backups sowie sicheres Staging und Bereitstellen problemlos durchgeführt werden. 
-Verwende die Standardeinstellungen und kopiere Deine gesamte Webseite oder wähle nur die Elemente aus, die Du übertragen möchtest. 
-Perfekt für die Verwaltung von Live-Webseiten.
-
-= Lasse Dir Dein Bloghosting bezahlen und biete Kunden vorgefertigte Lösungen =
-
-[Bloghosting macht es einfach, Blogs in einem Multisite Netzwerk zu vermarkten](https://n3rds.work/shop/artikel/ps-bloghosting-plugin/)
-
-Erstelle und monetarisiere Dein eigenes Netzwerk vom Typ WordPress.com mit Premium-Diensten und kostenpflichtigen Upgrades mithilfe von PS Bloghosting.
-PS Bloghosting kann ein Netzwerk mit Millionen von Blogs versorgen – und tut das auch. 
-Wir haben PS Bloghosting entwickelt, um die Möglichkeit zu geben ein eigenes WordPress.com zu erstellen und zu verwalten, eines der größten und profitabelsten Netzwerke der Welt. 
-Das Seiten-Management erleichtert die Arbeit und ermöglicht es Dir, Dein Geschäft auszubauen.
-
-= Finde mehr Piestingtal.Source =
-
-Wirf einen Blick in unser [PSOURCE Sortiment](https://n3rds.work/psource_kategorien/psource-plugins/) und hole noch mehr aus Deinem WordPress/ClassicPress!
-
-Halte Dich mit unserem [Newsletter](https://n3rds.work/webmasterservice-n3rdswork-digalize-das-piestingtal/newsletter-management/) über unsere Piestingtal.Source informiert!
-
-== Hilf uns ==
-
-Viele, viele Kaffees konsumieren wir während wir an unseren Plugins und Themes arbeiten.
-Wie wärs? Möchtest Du uns mit einer Kaffee-Spende bei der Arbeit an unseren Plugins unterstützen?
-
-= Unterstütze uns =
-
-Mach eine [Spende per Überweisung oder PayPal](https://n3rds.work/spendenaktionen/unterstuetze-unsere-psource-free-werke/) wir Danken Dir!
-
-Halte Dich mit unserem [Newsletter](https://n3rds.work/webmasterservice-n3rdswork-digalize-das-piestingtal/newsletter-management/) über unsere Piestingtal.Source informiert!
 
 == ChangeLog ==
 

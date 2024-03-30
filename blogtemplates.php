@@ -1,17 +1,17 @@
 <?php
 /*
 Plugin Name: Neue Blog-Vorlagen
-Plugin URI: https://n3rds.work/piestingtal_source/neue-blog-vorlagen/
+Plugin URI: https://cp-psource.github.io/blogvorlagen/
 Description: Ermöglicht dem Webseiten-Administrator das Erstellen neuer Blogs basierend auf Vorlagen, um den Blog-Erstellungsprozess zu beschleunigen
-Author: WMS N@W
-Author URI: https://n3rds.work
+Author: PSOURCE
+Author URI: https://github.com/cp-psource
 Version: 2.9.0
 Network: true
 Text Domain: blog_templates
 Domain Path: languages
 */
 
-/*  Copyright 2016-2023 WMS N@W (https://n3rds.work)
+/*  Copyright 2016-2024 PSOURCE (https://github.com/cp-psource)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -27,13 +27,25 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
-require 'psource/psource-plugin-update/psource-plugin-updater.php';
-use Psource\PluginUpdateChecker\v5\PucFactory;
-$MyUpdateChecker = PucFactory::buildUpdateChecker(
-	'https://n3rds.work//wp-update-server/?action=get_metadata&slug=blogvorlagen', 
-	__FILE__, 
-	'blogvorlagen' 
+
+/**
+ * @@@@@@@@@@@@@@@@@ PS UPDATER 1.3 @@@@@@@@@@@
+ **/
+require 'psource/psource-plugin-update/plugin-update-checker.php';
+use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
+ 
+$myUpdateChecker = PucFactory::buildUpdateChecker(
+	'https://github.com/cp-psource/blogvorlagen',
+	__FILE__,
+	'blogvorlagen'
 );
+ 
+//Set the branch that contains the stable release.
+$myUpdateChecker->setBranch('master');
+
+/**
+ * @@@@@@@@@@@@@@@@@ ENDE PS UPDATER 1.3 @@@@@@@@@@@
+ **/
 
 define( 'NBT_PLUGIN_VERSION', '2.9.0' );
 if ( ! is_multisite() )
