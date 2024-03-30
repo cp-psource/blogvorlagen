@@ -2,7 +2,7 @@
 Contributors: DerN3rd (PSOURCE)
 Tags: multisite, blogvorlagen, classicpress, wordpress, psource
 Requires at least: 3.8
-Tested up to: 5.6
+Tested up to: 6.4.3
 Stable tag: 2.9.1
 Requires PHP: 7.0
 License: GPLv2 or later
