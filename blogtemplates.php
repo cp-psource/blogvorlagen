@@ -11,7 +11,7 @@ Text Domain: blog_templates
 Domain Path: languages
 */
 
-/*  Copyright 2016-2024 PSOURCE (https://github.com/cp-psource)
+/*  Copyright 2016-2025 PSOURCE (https://github.com/cp-psource)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
