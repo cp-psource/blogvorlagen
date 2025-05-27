@@ -34,11 +34,6 @@ Die Webseite, die Du für die Verwendung als Vorlage angepasst hast, dient aussc
 Änderungen an einem Vorlagenblog wirken sich auf Webseiten aus, die nach den neuen Änderungen erstellt wurden. Sie wirken sich nicht auf bereits erstellte Webseiten aus.
 Du kannst Deine Hauptseite nicht als Vorlagenblog verwenden! Du erhältst eine kleine Erinnerung, wenn Du es versuchst.
 
-[POWERED BY PSOURCE](https://github.com/cp-psource)
-
-[Projektseite](https://cp-psource.github.io/blogvorlagen/)
-[GitHub](https://github.com/piestingtal-source/blogtemplates)
-
 
 == ChangeLog ==
 
