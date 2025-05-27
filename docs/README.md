@@ -1,8 +1,8 @@
-# Neue Blog-Vorlagen
+# PS Blog Templates
 
 Ermöglicht dem Webseiten-Administrator das Erstellen neuer Blogs basierend auf Vorlagen, um den Blog-Erstellungsprozess zu beschleunigen
 
-## Mit „Neue Blog-Vorlagen“ kannst Du einen Katalog von Webseiten-Vorlagen erstellen und so die Produktivität erheblich steigern.
+## Mit „PS Blog Templates“ kannst Du einen Katalog von Webseiten-Vorlagen erstellen und so die Produktivität erheblich steigern.
 
 Nutze das Design und den Inhalt vorhandener Webseiten in Deinem Multisite-Netzwerk, um wahnsinnig schnell neue Webseiten zu erstellen.
 
@@ -28,7 +28,7 @@ Das Erstellen von Webseiten mit Vorlagen geht nicht nur schneller, es sorgt auch
 
 ### Halten es frisch
 
-Da es sich bei Vorlagen um echte Webseiten handelt, kannst Du sie jederzeit ergänzen, aktualisieren oder ändern. Konfiguriere neu, was kopiert wird, und füge neue Beiträge oder Seiten mit frischem, relevantem Inhalt hinzu. Verschaffe neuen Webseiten in Deinem Netzwerk einen Vorteil mit einfachen Vorlagenoptimierungen. Reduziere mit Neue Blog-Vorlagen den Arbeitsaufwand, der erforderlich ist, um eine Webseite in Deinem Netzwerk auf den neuesten Stand zu bringen.
+Da es sich bei Vorlagen um echte Webseiten handelt, kannst Du sie jederzeit ergänzen, aktualisieren oder ändern. Konfiguriere neu, was kopiert wird, und füge neue Beiträge oder Seiten mit frischem, relevantem Inhalt hinzu. Verschaffe neuen Webseiten in Deinem Netzwerk einen Vorteil mit einfachen Vorlagenoptimierungen. Reduziere mit PS Blog Templates den Arbeitsaufwand, der erforderlich ist, um eine Webseite in Deinem Netzwerk auf den neuesten Stand zu bringen.
 
 ## Verwendung
 

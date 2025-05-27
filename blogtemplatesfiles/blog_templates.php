@@ -217,7 +217,7 @@ if ( ! class_exists( 'blog_templates' ) ) {
                     $settings_url = add_query_arg( 'page', 'blog_templates_main', network_admin_url( 'settings.php' ) );
                     ?>
                         <div class="error">
-                            <p><?php printf( __( '<strong>Neue Blog-Vorlagen alert:</strong> The main site cannot be templated from 1.7.1 version, please <a href="%s">go to settings page</a> and remove that template (will not be shown as a choice from now on)', 'blog_templates' ), $settings_url ); ?></p>
+                            <p><?php printf( __( '<strong>PS Blog Templates alert:</strong> The main site cannot be templated from 1.7.1 version, please <a href="%s">go to settings page</a> and remove that template (will not be shown as a choice from now on)', 'blog_templates' ), $settings_url ); ?></p>
                         </div>
                     <?php
                 }

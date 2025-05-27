@@ -229,7 +229,7 @@ class blog_templates_settings_menu {
             if (isset($_POST['save_options'])) {
 
                 if (! wp_verify_nonce($_POST['_nbtnonce'], 'blog_templates-update-options') )
-                    wp_die( __( 'Hoppla! Es ist ein Problem mit den von Dir veröffentlichten Daten aufgetreten. Bitte gehe zurück und versuche es erneut. (Erstellt von Neue Blog-Vorlagen)', 'blog_templates' ) );
+                    wp_die( __( 'Hoppla! Es ist ein Problem mit den von Dir veröffentlichten Daten aufgetreten. Bitte gehe zurück und versuche es erneut. (Erstellt von PS Blog Templates)', 'blog_templates' ) );
 
                 $defaults = nbt_get_default_settings();
                 $settings['show-registration-templates'] = isset($_POST['show-registration-templates']) ? (int)$_POST['show-registration-templates'] : 0;

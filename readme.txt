@@ -1,4 +1,4 @@
-=== Neue Blog-Vorlagen ===
+=== PS Blog Templates ===
 Contributors: DerN3rd (PSOURCE)
 Tags: multisite, blogvorlagen, classicpress, wordpress, psource
 Requires at least: 3.8
@@ -12,7 +12,7 @@ Ermöglicht dem Webseiten-Administrator das Erstellen neuer Blogs basierend auf 
 
 == Description ==
 
-Mit Neue Blog-Vorlagen kannst Du einen Katalog mit Webseiten-Vorlagen erstellen, um die Produktivität erheblich zu verbessern.
+Mit PS Blog Templates kannst Du einen Katalog mit Webseiten-Vorlagen erstellen, um die Produktivität erheblich zu verbessern.
 Verwende das Design und den Inhalt vorhandener Webseiten in Deinem Multisite-Netzwerk, um unglaublich schnell neue Webseiten zu erstellen.
 
 = Ein besserer Start =

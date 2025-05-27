@@ -217,7 +217,7 @@ class NBT_Template_copier {
 
                 //Check for errors
                 if ( ! empty( $wpdb->last_error ) ) {
-                    $error = '<div id="message" class="error"><p>' . sprintf( __( 'Insertion Error: %s - The template was not applied. (Neue Blog-Vorlagen - While inserting templated settings)', 'blog_templates' ), $wpdb->last_error ) . '</p></div>';
+                    $error = '<div id="message" class="error"><p>' . sprintf( __( 'Insertion Error: %s - The template was not applied. (PS Blog Templates - While inserting templated settings)', 'blog_templates' ), $wpdb->last_error ) . '</p></div>';
                     $wpdb->query("ROLLBACK;");
 
                     //We've rolled it back and thrown an error, we're done here
@@ -251,7 +251,7 @@ class NBT_Template_copier {
             do_action( 'blog_templates-copy-options', $this->template );
         }
         else {
-            $error = '<div id="message" class="error"><p>' . sprintf( __( 'Deletion Error: %s - The template was not applied. (Neue Blog-Vorlagen - While removing auto-generated settings)', 'blog_templates' ), $wpdb->last_error ) . '</p></div>';
+            $error = '<div id="message" class="error"><p>' . sprintf( __( 'Deletion Error: %s - The template was not applied. (PS Blog Templates - While removing auto-generated settings)', 'blog_templates' ), $wpdb->last_error ) . '</p></div>';
             $wpdb->query("ROLLBACK;");
             restore_current_blog(); //Switch back to our current blog
             wp_die($error);
@@ -457,7 +457,7 @@ class NBT_Template_copier {
 
 
             } else {
-                $error = '<div id="message" class="error"><p>' . sprintf( __( 'File System Error: Unable to create directory %s. (Neue Blog-Vorlagen - While copying files)', 'blog_templates' ), $dir_to_copy_into ) . '</p></div>';
+                $error = '<div id="message" class="error"><p>' . sprintf( __( 'File System Error: Unable to create directory %s. (PS Blog Templates - While copying files)', 'blog_templates' ), $dir_to_copy_into ) . '</p></div>';
                 $wpdb->query( 'ROLLBACK;' );
                 restore_current_blog();
                 wp_die( $error );
@@ -547,7 +547,7 @@ class NBT_Template_copier {
                 }
 
                 if ( ! empty( $wpdb->last_error ) ) {
-                    $error = '<div id="message" class="error"><p>' . sprintf( __( 'Insertion Error: %s - The template was not applied. (Neue Blog-Vorlagen - With CREATE TABLE query for Additional Tables)', 'blog_templates' ), $wpdb->last_error ) . '</p></div>';
+                    $error = '<div id="message" class="error"><p>' . sprintf( __( 'Insertion Error: %s - The template was not applied. (PS Blog Templates - With CREATE TABLE query for Additional Tables)', 'blog_templates' ), $wpdb->last_error ) . '</p></div>';
                     $wpdb->query("ROLLBACK;");
                     wp_die($error);
                 }
@@ -738,7 +738,7 @@ class NBT_Template_copier {
 
             $wpdb->insert( $wpdb->$table, $process );
             if ( ! empty( $wpdb->last_error ) ) {
-                $error = '<div id="message" class="error"><p>' . sprintf( __( 'Insertion Error: %1$s - The template was not applied. (Neue Blog-Vorlagen - While copying %2$s)', 'blog_templates' ), $wpdb->last_error, $table ) . '</p></div>';
+                $error = '<div id="message" class="error"><p>' . sprintf( __( 'Insertion Error: %1$s - The template was not applied. (PS Blog Templates - While copying %2$s)', 'blog_templates' ), $wpdb->last_error, $table ) . '</p></div>';
                 $wpdb->query("ROLLBACK;");
 
                 //We've rolled it back and thrown an error, we're done here
@@ -804,7 +804,7 @@ class NBT_Template_copier {
         $wpdb->query("DELETE FROM $table");
 
         if ($wpdb->last_error) { //No error. Good! Now copy over the terms from the templated blog
-            $error = '<div id="message" class="error"><p>' . sprintf( __( 'Deletion Error: %1$s - The template was not applied. (Neue Blog-Vorlagen - While clearing %2$s)', 'blog_templates' ), $wpdb->last_error, $table ) . '</p></div>';
+            $error = '<div id="message" class="error"><p>' . sprintf( __( 'Deletion Error: %1$s - The template was not applied. (PS Blog Templates - While clearing %2$s)', 'blog_templates' ), $wpdb->last_error, $table ) . '</p></div>';
             $wpdb->query("ROLLBACK;");
             restore_current_blog(); //Switch back to our current blog
             wp_die($error);
@@ -851,7 +851,7 @@ class NBT_Template_copier {
 
             $wpdb->insert( $dest_table, $process );
             if ( ! empty( $wpdb->last_error ) ) {
-                $error = '<div id="message" class="error"><p>' . sprintf( __( 'Insertion Error: %1$s - The template was not applied. (Neue Blog-Vorlagen - While copying %2$s)', 'blog_templates' ), $wpdb->last_error, $table ) . '</p></div>';
+                $error = '<div id="message" class="error"><p>' . sprintf( __( 'Insertion Error: %1$s - The template was not applied. (PS Blog Templates - While copying %2$s)', 'blog_templates' ), $wpdb->last_error, $table ) . '</p></div>';
                 $wpdb->query("ROLLBACK;");
 
                 //We've rolled it back and thrown an error, we're done here

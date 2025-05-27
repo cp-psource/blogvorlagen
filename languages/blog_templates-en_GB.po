@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Neue Blog-Vorlagen\n"
+"Project-Id-Version: PS Blog Templates\n"
 "POT-Creation-Date: 2023-09-09 17:28+0200\n"
 "PO-Revision-Date: 2023-09-09 17:30+0200\n"
 "Last-Translator: \n"
@@ -23,9 +23,9 @@ msgstr ""
 #: blogtemplates.php:39
 #, fuzzy
 msgid ""
-"Das Plugin für neue Blog-Vorlagen ist nur mit WordPress Multisite kompatibel."
+"Das Plugin für PS Blog Templates ist nur mit WordPress Multisite kompatibel."
 msgstr ""
-"The plugin for Neue Blog-Vorlagen is only compatible with WordPress "
+"The plugin for PS Blog Templates is only compatible with WordPress "
 "Multisite."
 
 #: blogtemplates.php:244 blogtemplates.php:277
@@ -378,7 +378,7 @@ msgid ""
 "Blog-Vorlagen)"
 msgstr ""
 "Oops, there was a problem with the data you posted. Please go back and try "
-"again. (Created by Neue Blog-Vorlagen)"
+"again. (Created by PS Blog Templates)"
 
 #: blogtemplatesfiles/admin/main_menu.php:430
 #, fuzzy
@@ -395,10 +395,10 @@ msgstr "Your changes have been successfully saved!"
 #, fuzzy
 msgid ""
 "Hoppla! Die von Dir gepostete Blog-ID ist falsch. Bitte gehe zurück und "
-"versuche es erneut. (Erstellt von Neue Blog-Vorlagen)"
+"versuche es erneut. (Erstellt von PS Blog Templates)"
 msgstr ""
 "Oops! The blog ID you posted is wrong. Please go back and try again. "
-"(Created by Neue Blog-Vorlagen)"
+"(Created by PS Blog Templates)"
 
 #: blogtemplatesfiles/admin/main_menu.php:519
 #, fuzzy
@@ -408,7 +408,7 @@ msgid ""
 "Blog-Vorlagen)"
 msgstr ""
 "Oops! The blog ID you posted is wrong. You cannot submit the main page. "
-"Please go back and try again. (Created by Neue Blog-Vorlagen)"
+"Please go back and try again. (Created by PS Blog Templates)"
 
 #: blogtemplatesfiles/admin/main_menu.php:521
 #, fuzzy
@@ -539,11 +539,11 @@ msgstr "Options saved."
 #: blogtemplatesfiles/blog_templates.php:220
 #, fuzzy, php-format
 msgid ""
-"<strong>Neue Blog-Vorlagen alert:</strong> The main site cannot be templated "
+"<strong>PS Blog Templates alert:</strong> The main site cannot be templated "
 "from 1.7.1 version, please <a href=\"%s\">go to settings page</a> and remove "
 "that template (will not be shown as a choice from now on)"
 msgstr ""
-"<strong>Neue Blog-Vorlagen alert:</strong> The main site cannot be templated "
+"<strong>PS Blog Templates alert:</strong> The main site cannot be templated "
 "from 1.7.1 version, please <a href=\"%s\">go to settings page</a> and remove "
 "that template (will not be shown as a choice from now on)"
 
@@ -612,55 +612,55 @@ msgstr "ALL"
 #: blogtemplatesfiles/copier.php:220
 #, fuzzy, php-format
 msgid ""
-"Insertion Error: %s - The template was not applied. (Neue Blog-Vorlagen - "
+"Insertion Error: %s - The template was not applied. (PS Blog Templates - "
 "While inserting templated settings)"
 msgstr ""
-"Insertion Error: %s - The template was not applied. (Neue Blog-Vorlagen - "
+"Insertion Error: %s - The template was not applied. (PS Blog Templates - "
 "While inserting templated settings)"
 
 #: blogtemplatesfiles/copier.php:254
 #, fuzzy, php-format
 msgid ""
-"Deletion Error: %s - The template was not applied. (Neue Blog-Vorlagen - "
+"Deletion Error: %s - The template was not applied. (PS Blog Templates - "
 "While removing auto-generated settings)"
 msgstr ""
-"Deletion Error: %s - The template was not applied. (Neue Blog-Vorlagen - "
+"Deletion Error: %s - The template was not applied. (PS Blog Templates - "
 "While removing auto-generated settings)"
 
 #: blogtemplatesfiles/copier.php:460
 #, fuzzy, php-format
 msgid ""
-"File System Error: Unable to create directory %s. (Neue Blog-Vorlagen - "
+"File System Error: Unable to create directory %s. (PS Blog Templates - "
 "While copying files)"
 msgstr ""
-"File System Error: Unable to create directory %s. (Neue Blog-Vorlagen - "
+"File System Error: Unable to create directory %s. (PS Blog Templates - "
 "While copying files)"
 
 #: blogtemplatesfiles/copier.php:550
 #, fuzzy, php-format
 msgid ""
-"Insertion Error: %s - The template was not applied. (Neue Blog-Vorlagen - "
+"Insertion Error: %s - The template was not applied. (PS Blog Templates - "
 "With CREATE TABLE query for Additional Tables)"
 msgstr ""
-"Insertion Error: %s - The template was not applied. (Neue Blog-Vorlagen - "
+"Insertion Error: %s - The template was not applied. (PS Blog Templates - "
 "With CREATE TABLE query for Additional Tables)"
 
 #: blogtemplatesfiles/copier.php:741 blogtemplatesfiles/copier.php:854
 #, fuzzy, php-format
 msgid ""
-"Insertion Error: %1$s - The template was not applied. (Neue Blog-Vorlagen - "
+"Insertion Error: %1$s - The template was not applied. (PS Blog Templates - "
 "While copying %2$s)"
 msgstr ""
-"Insertion Error: %1$s - The template was not applied. (Neue Blog-Vorlagen - "
+"Insertion Error: %1$s - The template was not applied. (PS Blog Templates - "
 "While copying %2$s)"
 
 #: blogtemplatesfiles/copier.php:807
 #, fuzzy, php-format
 msgid ""
-"Deletion Error: %1$s - The template was not applied. (Neue Blog-Vorlagen - "
+"Deletion Error: %1$s - The template was not applied. (PS Blog Templates - "
 "While clearing %2$s)"
 msgstr ""
-"Deletion Error: %1$s - The template was not applied. (Neue Blog-Vorlagen - "
+"Deletion Error: %1$s - The template was not applied. (PS Blog Templates - "
 "While clearing %2$s)"
 
 #: blogtemplatesfiles/helpers.php:43
@@ -695,8 +695,8 @@ msgstr "As a shop window within a page"
 
 #: blogtemplatesfiles/integration/gravity-forms.php:89
 #, fuzzy
-msgid "Neue Blog-Vorlagen"
-msgstr "Neue Blog-Vorlagen"
+msgid "PS Blog Templates"
+msgstr "PS Blog Templates"
 
 #: blogtemplatesfiles/integration/gravity-forms.php:95
 #: blogtemplatesfiles/integration/gravity-forms.php:99
@@ -785,8 +785,8 @@ msgstr "I just want a username, please."
 
 #. Plugin Name of the plugin/theme
 #, fuzzy
-msgid "Neue Blog-Vorlagen"
-msgstr "Neue Blog-Vorlagen"
+msgid "PS Blog Templates"
+msgstr "PS Blog Templates"
 
 #. Plugin URI of the plugin/theme
 #, fuzzy

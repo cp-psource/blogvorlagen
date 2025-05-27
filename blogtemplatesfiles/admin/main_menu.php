@@ -411,7 +411,7 @@ class blog_templates_main_menu {
             if( $save_template ) {
 
                 if (! wp_verify_nonce($_POST['_nbtnonce'], 'blog_templates-update-options') )
-                    die( __( 'Hoppla! Es ist ein Problem mit den von Dir veröffentlichten Daten aufgetreten. Bitte gehe zurück und versuche es erneut. (Erstellt von Neue Blog-Vorlagen)', 'blog_templates' ) );
+                    die( __( 'Hoppla! Es ist ein Problem mit den von Dir veröffentlichten Daten aufgetreten. Bitte gehe zurück und versuche es erneut. (Erstellt von PS Blog Templates)', 'blog_templates' ) );
                 
 
                 $args = array( 
@@ -510,13 +510,13 @@ class blog_templates_main_menu {
 
             } elseif( !empty( $_POST['save_new_template'] ) ) {
                 if ( ! wp_verify_nonce( $_POST['_nbtnonce'], 'blog_templates-update-options' ) )
-                    wp_die( __( 'Hoppla! Es ist ein Problem mit den von Dir veröffentlichten Daten aufgetreten. Bitte gehe zurück und versuche es erneut. (Erstellt von Neue Blog-Vorlagen)', 'blog_templates' ) );
+                    wp_die( __( 'Hoppla! Es ist ein Problem mit den von Dir veröffentlichten Daten aufgetreten. Bitte gehe zurück und versuche es erneut. (Erstellt von PS Blog Templates)', 'blog_templates' ) );
 
                 if ( ! get_blog_details( (int) $_POST['copy_blog_id'] ) )
-                    wp_die( __( 'Hoppla! Die von Dir gepostete Blog-ID ist falsch. Bitte gehe zurück und versuche es erneut. (Erstellt von Neue Blog-Vorlagen)', 'blog_templates' ) );
+                    wp_die( __( 'Hoppla! Die von Dir gepostete Blog-ID ist falsch. Bitte gehe zurück und versuche es erneut. (Erstellt von PS Blog Templates)', 'blog_templates' ) );
 
                 if ( is_main_site( (int) $_POST['copy_blog_id'] ) )
-                    wp_die( __( 'Hoppla! Die von Dir gepostete Blog-ID ist falsch. Du kannst die Hauptseite nicht vorlegen. Bitte gehe zurück und versuche es erneut. (Erstellt von Neue Blog-Vorlagen)', 'blog_templates' ) );
+                    wp_die( __( 'Hoppla! Die von Dir gepostete Blog-ID ist falsch. Du kannst die Hauptseite nicht vorlegen. Bitte gehe zurück und versuche es erneut. (Erstellt von PS Blog Templates)', 'blog_templates' ) );
 
                 $name = ( ! empty( $_POST['template_name'] ) ? stripslashes( $_POST['template_name'] ) : __( 'Eine Vorlage', 'blog_templates' ) );
                 $description = ( ! empty( $_POST['template_description'] ) ? stripslashes( preg_replace('~<\s*\bscript\b[^>]*>(.*?)<\s*\/\s*script\s*>~is', '', $_POST['template_description'] ) ) : '' );
@@ -545,7 +545,7 @@ class blog_templates_main_menu {
             } elseif( isset( $_GET['remove_default'] ) ) {
 
                 if ( ! wp_verify_nonce($_GET['_wpnonce'], 'blog_templates-remove_default') )
-                    wp_die( __( 'Hoppla! Es ist ein Problem mit den von Dir veröffentlichten Daten aufgetreten. Bitte gehe zurück und versuche es erneut. (Erstellt von Neue Blog-Vorlagen)', 'blog_templates' ) );
+                    wp_die( __( 'Hoppla! Es ist ein Problem mit den von Dir veröffentlichten Daten aufgetreten. Bitte gehe zurück und versuche es erneut. (Erstellt von PS Blog Templates)', 'blog_templates' ) );
                	
                	$model->remove_default_template();
                	$settings = nbt_get_settings();
@@ -559,7 +559,7 @@ class blog_templates_main_menu {
             } elseif ( isset( $_GET['default'] ) && is_numeric( $_GET['default'] ) ) {
 
                 if (! wp_verify_nonce($_GET['_wpnonce'], 'blog_templates-make_default') )
-                    wp_die( __( 'Hoppla! Es ist ein Problem mit den von Dir veröffentlichten Daten aufgetreten. Bitte gehe zurück und versuche es erneut. (Erstellt von Neue Blog-Vorlagen)', 'blog_templates' ) );
+                    wp_die( __( 'Hoppla! Es ist ein Problem mit den von Dir veröffentlichten Daten aufgetreten. Bitte gehe zurück und versuche es erneut. (Erstellt von PS Blog Templates)', 'blog_templates' ) );
 
 				$default_updated = $model->set_default_template( absint( $_GET['default'] ) );
 
@@ -575,7 +575,7 @@ class blog_templates_main_menu {
             } elseif ( isset( $_GET['d'] ) && is_numeric( $_GET['d'] ) ) {
 
                 if (! wp_verify_nonce($_GET['_wpnonce'], 'blog_templates-delete_template') )
-                    wp_die( __( 'Hoppla! Es ist ein Problem mit den von Dir veröffentlichten Daten aufgetreten. Bitte gehe zurück und versuche es erneut. (Erstellt von Neue Blog-Vorlagen)', 'blog_templates' ) );
+                    wp_die( __( 'Hoppla! Es ist ein Problem mit den von Dir veröffentlichten Daten aufgetreten. Bitte gehe zurück und versuche es erneut. (Erstellt von PS Blog Templates)', 'blog_templates' ) );
 
                 $model->delete_template( absint( $_GET['d'] ) );
 

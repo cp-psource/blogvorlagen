@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Neue Blog-Vorlagen\n"
+"Project-Id-Version: PS Blog Templates\n"
 "POT-Creation-Date: 2023-09-09 17:26+0200\n"
 "PO-Revision-Date: 2023-09-09 17:26+0200\n"
 "Last-Translator: \n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: blogtemplates.php:39
 msgid ""
-"Das Plugin für neue Blog-Vorlagen ist nur mit WordPress Multisite kompatibel."
+"Das Plugin für PS Blog Templates ist nur mit WordPress Multisite kompatibel."
 msgstr ""
 
 #: blogtemplates.php:244 blogtemplates.php:277
@@ -314,7 +314,7 @@ msgstr ""
 #: blogtemplatesfiles/admin/main_menu.php:516
 msgid ""
 "Hoppla! Die von Dir gepostete Blog-ID ist falsch. Bitte gehe zurück und "
-"versuche es erneut. (Erstellt von Neue Blog-Vorlagen)"
+"versuche es erneut. (Erstellt von PS Blog Templates)"
 msgstr ""
 
 #: blogtemplatesfiles/admin/main_menu.php:519
@@ -427,7 +427,7 @@ msgstr ""
 #: blogtemplatesfiles/blog_templates.php:220
 #, php-format
 msgid ""
-"<strong>Neue Blog-Vorlagen alert:</strong> The main site cannot be templated "
+"<strong>PS Blog Templates alert:</strong> The main site cannot be templated "
 "from 1.7.1 version, please <a href=\"%s\">go to settings page</a> and remove "
 "that template (will not be shown as a choice from now on)"
 msgstr ""
@@ -485,42 +485,42 @@ msgstr ""
 #: blogtemplatesfiles/copier.php:220
 #, php-format
 msgid ""
-"Insertion Error: %s - The template was not applied. (Neue Blog-Vorlagen - "
+"Insertion Error: %s - The template was not applied. (PS Blog Templates - "
 "While inserting templated settings)"
 msgstr ""
 
 #: blogtemplatesfiles/copier.php:254
 #, php-format
 msgid ""
-"Deletion Error: %s - The template was not applied. (Neue Blog-Vorlagen - "
+"Deletion Error: %s - The template was not applied. (PS Blog Templates - "
 "While removing auto-generated settings)"
 msgstr ""
 
 #: blogtemplatesfiles/copier.php:460
 #, php-format
 msgid ""
-"File System Error: Unable to create directory %s. (Neue Blog-Vorlagen - "
+"File System Error: Unable to create directory %s. (PS Blog Templates - "
 "While copying files)"
 msgstr ""
 
 #: blogtemplatesfiles/copier.php:550
 #, php-format
 msgid ""
-"Insertion Error: %s - The template was not applied. (Neue Blog-Vorlagen - "
+"Insertion Error: %s - The template was not applied. (PS Blog Templates - "
 "With CREATE TABLE query for Additional Tables)"
 msgstr ""
 
 #: blogtemplatesfiles/copier.php:741 blogtemplatesfiles/copier.php:854
 #, php-format
 msgid ""
-"Insertion Error: %1$s - The template was not applied. (Neue Blog-Vorlagen - "
+"Insertion Error: %1$s - The template was not applied. (PS Blog Templates - "
 "While copying %2$s)"
 msgstr ""
 
 #: blogtemplatesfiles/copier.php:807
 #, php-format
 msgid ""
-"Deletion Error: %1$s - The template was not applied. (Neue Blog-Vorlagen - "
+"Deletion Error: %1$s - The template was not applied. (PS Blog Templates - "
 "While clearing %2$s)"
 msgstr ""
 
@@ -549,7 +549,7 @@ msgid "Als Schaufenster innerhalb einer Seite"
 msgstr ""
 
 #: blogtemplatesfiles/integration/gravity-forms.php:89
-msgid "Neue Blog-Vorlagen"
+msgid "PS Blog Templates"
 msgstr ""
 
 #: blogtemplatesfiles/integration/gravity-forms.php:95
@@ -628,7 +628,7 @@ msgid "Ich möchte nur einen Benutzernamen, bitte."
 msgstr ""
 
 #. Plugin Name of the plugin/theme
-msgid "Neue Blog-Vorlagen"
+msgid "PS Blog Templates"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
